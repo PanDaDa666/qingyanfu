@@ -1,0 +1,100 @@
+//
+//  QYFPrefix.pch
+//  QingYanFuYanWo
+//
+
+
+#ifndef QingYanFuYanWo_QYFPrefix_pch
+#define QingYanFuYanWo_QYFPrefix_pch
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
+
+/**
+ *  当前屏幕大小
+ */
+#define kScreenBounds ([[UIScreen mainScreen] bounds])
+#define kScreenWidth (kScreenBounds.size.width)
+#define kScreenHeight (kScreenBounds.size.height)
+
+/**
+ *  第一次启动App的Key
+ */
+#define kAppFirstLoadKey @"kAppFirstLoadKey"
+
+/**
+ *  服务器接口
+ */
+#define  kApplicationId @"kMjwhKcP6n3jrh6ngBhGgc7r"
+#define  kClientKey @"PTwytPnkwXkbDbA2B9V6UOot"
+#define  kUMAppKey @"562ef58b67e58eb9c0000be2"
+/**
+ *  去除release的NSLog
+ */
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...){}
+#endif
+
+//
+#define kNet_Words(createTime)[NSString stringWithFormat:@"http://bea.wufazhuce.com/OneForWeb/one/getHp_N?strDate=%@&strRow=1",createTime];
+
+/**
+ *  navigationBar背景颜色
+ */
+#define BLUE_COLOR [UIColor colorWithRed:113.0f/255 green:168.0f/255 blue:237.0f/255 alpha:1];
+#define Gray_COLOR [UIColor colorWithRed:234.0f/255 green:234.0f/255 blue:234.0f/255 alpha:1]
+
+
+#define kLoginView_LoginButtonTag 200
+#define kLoginView_RegisterButtonTag 201
+#define kLoginView_UserNameTag 205
+#define kLoginView_PassWordTag 206
+
+#define kRegisterView_UserNameTag 305
+#define kRegisterView_PassWordTag 306
+#define kRegisterView_SecondPassWordTag 307
+#define kRegisterView_WoyouNameTag 308
+#define kRegisterView_RegisterButtonTag 300
+#define kRegisterView_PictureButtonTag 301
+#define kRegisterView_ServiceButtonTag 302
+#define kRegisterView_CheckButtonTag 303
+
+#define kKnowledgeCell_Weight kScreenBounds.size.width-40
+
+#define kKnowledgeSrollView_TextLabelTag 400
+#define kKnowledgeSrollView_PictureImageViewTag 410
+
+#define kProductBottomView_BuyButtonTag 450
+#define kProductBottomView_BuyCarButtonTag 460
+#define kProductBottomView_MoneyLabelTag 470
+#define kYanWoTableViewCell_reduceBuyNumBtnTag 500
+#define kYanWoTableViewCell_addBuyNumBtnTag 600
+#define kYanWoTableViewCell_describeButton 700
+#define kYanWoTableViewCell_imageNameImageView 800
+#define kBottomHeight 50
+#define kMenuTableViewWidth 85
+#define FOOTERHEIGHT 30
+#define HEADERHEIGHT 30
+#define ROWHEIGHT 110
+
+#define kBuyView_UserNameTag 900
+#define kBuyView_AddressTag 901
+#define kBuyView_PhoneTag 902
+#define kBuyView_buttonTag 903
+#define kBuyViewController_alertTag 904
+
+#define kLeftViewController_CurrentPassWordAlertTag 1001
+#define kLeftViewController_NowPassWordAlertTag 1002
+
+#define kPageSize 10
+#define kConversationId @"5627585c00b08a6c421200bc"
+
+#define SCANVIEW_EdgeTop 40.0
+#define SCANVIEW_EdgeLeft 50.0
+#define TINTCOLOR_ALPHA 0.2 //浅色透明度
+#define DARKCOLOR_ALPHA 0.5 //深色透明度
+#endif

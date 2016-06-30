@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>02FF79E4-22AD-4812-8BE1-45816EC1254C</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>671dc06b-d518-8248-8207-5643baf02e27++9191</key>
+		<string>https://192.168.60.200/svn/iHome_controller/trunk/IOS/iHome/iHome/View/EGORefresh.bundle</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>671dc06b-d518-8248-8207-5643baf02e27++9191</key>
+		<string>EGORefresh.bundle/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>671dc06b-d518-8248-8207-5643baf02e27++9191</key>
+		<string>https://192.168.60.200/svn/iHome_controller</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.60.200/svn/iHome_controller/trunk/IOS/iHome/iHome/View/EGORefresh.bundle</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>671dc06b-d518-8248-8207-5643baf02e27++9191</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>671dc06b-d518-8248-8207-5643baf02e27++9191</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EGORefresh.bundle</string>
+		</dict>
+	</array>
+</dict>
+</plist>
